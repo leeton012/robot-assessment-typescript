@@ -85,7 +85,11 @@ function processCommands(input: string): void {
 
 
 const input = "N 0 0\nM1RM4L3";
-processCommands(input); //S 4 1
+const input1 = "N 0 0\nM1RM4L";
+const input2 = "N 0 0\nM1RM4";
+processCommands(input)  //s 4 1
+processCommands(input1) //N 4 1
+processCommands(input2) //E 4 1
 
 
 
